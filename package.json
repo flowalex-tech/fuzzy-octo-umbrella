@@ -1,17 +1,19 @@
 {
-  "name": "vuepress-gl-pages",
+  "name": "project_documentation",
   "version": "1.0.0",
-  "description": "A starter project for hosting VuePress sites on GitLab pages.",
+  "description": "Documentation",
   "main": "index.js",
-  "author": "samdbeckham",
+  "repository": "git@github.com:flowalex-tech/project_documentation.git",
+  "author": "Alex <flowalex@vivaldi.net>",
   "license": "MIT",
-  "private": false,
-  "scripts": {
-    "start": "vuepress dev docs",
-    "build": "vuepress build docs"
-  },
-  "dependencies": {},
   "devDependencies": {
-    "vuepress": "^0.10.0"
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-theme-material-free": "^0.1.4"
   }
 }
