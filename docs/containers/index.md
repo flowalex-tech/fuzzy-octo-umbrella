@@ -9,4 +9,7 @@ tags:
   - kubernetes
 favorite: true
 ---
-
+[Old Docker Compose Config](./old-stack-docker-compose)
+- Author: {{ $page.git.author }}
+- Last Update: {{ $page.git.updated }}
+- Last Commit: {{ $page.git.commits[0].fullHash }}

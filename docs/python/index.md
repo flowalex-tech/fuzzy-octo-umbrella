@@ -8,3 +8,8 @@ tags:
 favorite: true
 ---
 
+[Linux Package Installer](./linux_package_installer)
+
+- Author: {{ $page.git.author }}
+- Last Update: {{ $page.git.updated }}
+- Last Commit: {{ $page.git.commits[0].fullHash }}

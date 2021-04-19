@@ -12,7 +12,7 @@ module.exports = {
       nav: [
         { label: 'Containers', path: '/containers', icon: 'docker' },
         { label: 'Python', path: '/python', icon: 'python' },
-        { label: 'About the author', path: '/about.html', icon: 'person' },
+        { label: 'About the author', path: '/about', icon: 'person' },
         { label: 'Tags', path: '/tag', icon: 'category' },
       ],
       footer: {
@@ -27,4 +27,13 @@ module.exports = {
         default: 'en', // or 'pt-BR'
       },
     },
+    plugins: [
+        '@vuepress/plugin-last-updated',
+        'vuepress-plugin-git-log',
+      {
+        additionalArgs: '--no-merge',
+        onlyFirstAndLastCommit: true,
+      },
+      'social-share'
+      ]
   };

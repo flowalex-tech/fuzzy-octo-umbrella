@@ -7,7 +7,9 @@
   "author": "Alex <flowalex@vivaldi.net>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-git-log": "^1.0.1",
+    "vuepress-plugin-social-share": "^1.0.0"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",

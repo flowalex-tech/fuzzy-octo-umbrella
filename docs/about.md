@@ -13,3 +13,8 @@ I am Alex Wolf from Saint Paul , Minnesota who is  always learning new things an
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=flowalex-tech)
 
 ![Profile views](https://gpvc.arturio.dev/flowalex-tech)
+
+
+- Author: {{ $page.git.author }}
+- Last Update: {{ $page.git.updated }}
+- Last Commit: {{ $page.git.commits[0].fullHash }}
