@@ -8,3 +8,5 @@ tags:
 favorite: true
 ---
 
+## [Package Installer](./package_installer.html)
+
